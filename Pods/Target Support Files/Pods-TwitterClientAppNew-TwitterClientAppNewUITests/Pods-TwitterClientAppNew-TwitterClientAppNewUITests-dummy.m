@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_TwitterClientAppNew_TwitterClientAppNewUITests : NSObject
+@end
+@implementation PodsDummy_Pods_TwitterClientAppNew_TwitterClientAppNewUITests
+@end
