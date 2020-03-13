@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '13.0'
 
 target 'TwitterClientAppNew' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -7,14 +7,7 @@ target 'TwitterClientAppNew' do
 
   pod 'Alamofire','4.8.2'
   pod 'AlamofireImage','3.5'
-
-  target 'TwitterClientAppNewTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'TwitterClientAppNewUITests' do
-    # Pods for testing
-  end
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 
 end

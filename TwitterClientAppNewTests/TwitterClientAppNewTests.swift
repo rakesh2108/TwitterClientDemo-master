@@ -2,12 +2,11 @@
 //  TwitterClientAppNewTests.swift
 //  TwitterClientAppNewTests
 //
-//  Created by Rakesh Rayannavar on 03/02/20.
+//  Created by Rakesh Rayannavar on 13/03/20.
 //  Copyright © 2020 Rakesh Rayannavar. All rights reserved.
 //
 
 import XCTest
-@testable import TwitterClientAppNew
 
 class TwitterClientAppNewTests: XCTestCase {
 
@@ -26,7 +25,7 @@ class TwitterClientAppNewTests: XCTestCase {
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }

@@ -2,13 +2,13 @@
 //  TweetsCellViewModel.swift
 //  TwitterClientAppNew
 //
-//  Created by Rakesh Rayannavar on 22/02/20.
+//  Created by Rakesh Rayannavar on 13/03/20.
 //  Copyright © 2020 Rakesh Rayannavar. All rights reserved.
 //
 
 import UIKit
 
-class TweetsCellViewModel {
+final class TweetsCellViewModel {
     
     //MARK: Methods
     func downloadImageForTweets(imgeURL: URL, completionHandler handler : @escaping imageDownloadCompletionHandler) {

@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  TwitterClientAppNew
 //
-//  Created by Rakesh Rayannavar on 03/02/20.
+//  Created by Rakesh Rayannavar on 13/03/20.
 //  Copyright © 2020 Rakesh Rayannavar. All rights reserved.
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,10 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
         // Override point for customization after application launch.
         return true
     }
-
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

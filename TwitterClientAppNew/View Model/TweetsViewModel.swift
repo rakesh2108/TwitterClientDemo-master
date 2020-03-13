@@ -2,7 +2,7 @@
 //  TweetsViewModel.swift
 //  TwitterClientAppNew
 //
-//  Created by Rakesh Rayannavar on 05/02/20.
+//  Created by Rakesh Rayannavar on 13/03/20.
 //  Copyright © 2020 Rakesh Rayannavar. All rights reserved.
 //
 
@@ -13,7 +13,7 @@ protocol TweetsViewModelDelegate {
     func fetchTweetsFailure(error: String?)
 }
 
-class TweetsViewModel {
+final class TweetsViewModel {
     
     //MARK: Properties
     var tweets: [Status]?
