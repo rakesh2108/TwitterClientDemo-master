@@ -22,7 +22,7 @@ final class TweetsViewModel {
     var tweetsCountsToShow = [Int]()
     var delegate: TweetsViewModelDelegate?
     
-    //MARK: Methods
+    //MARK:Methods
     
     func performTwitterAuth() {
          NetworkManager.performAuthenticationToFetchToken()
